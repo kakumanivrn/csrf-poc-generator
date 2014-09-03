@@ -16,7 +16,7 @@ class CSRF {
 			System.out.print("input name = ");
 			ip[i] = br.readLine();
 
-			System.out.print(ip[i] + " = ");
+			System.out.print("input value (" + ip[i] + ") = ");
 			ip_val[i] = br.readLine();
 
 			code = code + "\n" + "\t<input type=\"hidden\" name=\""+ ip[i] +"\" value = \""+ ip_val[i] +"\" />";
